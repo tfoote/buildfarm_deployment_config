@@ -112,7 +112,7 @@ Once you have customized all the content of
     apt-get install -y git
 
     # Customize this URL for your fork
-    git clone https://github.com/tfoote/buildfarm_deployment_config.git
+    git clone https://github.com/tfoote/buildfarm_deployment_config.git -b test_deployment20140109
     cd buildfarm_deployment_config
     ./reconfigure.bash master
 
@@ -125,7 +125,7 @@ Once you have customized all the content of
     apt-get install -y git
 
     # Customize this URL for your fork
-    git clone https://github.com/tfoote/buildfarm_deployment_config.git
+    git clone https://github.com/tfoote/buildfarm_deployment_config.git -b test_deployment20140109
     cd buildfarm_deployment_config
     ./reconfigure.bash repo
 
@@ -137,7 +137,7 @@ Once you have customized all the content of
     apt-get install -y git
 
     # Customize this URL for your fork
-    git clone https://github.com/tfoote/buildfarm_deployment_config.git
+    git clone https://github.com/tfoote/buildfarm_deployment_config.git -b test_deployment20140109
     cd buildfarm_deployment_config
     ./reconfigure.bash slave
 

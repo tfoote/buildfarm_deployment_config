@@ -7,6 +7,6 @@ master::ip: 54.67.63.99
 repo::ip: 54.67.126.25
 
 autoreconfigure: true
-autoreconfigure::command: 'bash -c "cd /root/buildfarm_deployment_config && git fetch origin/master && git reset --hard origin/master && ./reconfigure.bash slave"'
+autoreconfigure::command: 'bash -c "cd /root/buildfarm_deployment_config && git fetch origin/test_deployment20140109 && git reset --hard origin/test_deployment20140109 && ./reconfigure.bash slave"'
 
 run_squid: true
